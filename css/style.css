@@ -1,0 +1,47 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 25px;
+  background-color: rgb(235, 240, 168);
+}
+input {
+  font-size: 30px;
+  height: 90px;
+  width: 90px;
+  border: 3px solid black;
+  border-radius: 15%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+h2 {
+  margin: 0 auto;
+  width: 200px;
+  padding: 10px;
+  border: 3px solid black;
+  border-radius: 20px;
+  background-color: rgb(194, 194, 140);
+}
+p {
+  font-size: 50px;
+  height: 300px;
+  width: 500px;
+  margin: 0 auto;
+  font-family: 'Great Vibes', cursive;
+  padding-top: 100px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
